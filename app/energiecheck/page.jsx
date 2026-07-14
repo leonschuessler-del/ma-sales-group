@@ -124,7 +124,6 @@ export default function Home() {
 
       <section className="finalCta" id="kontakt"><p>Kostenlos &amp; unverbindlich</p><h2>Ein Foto kann Ihnen zeigen,<br/>ob Sie Jahr für Jahr zu viel zahlen.</h2><a className="primaryButton light" href={whatsapp} target="_blank" rel="noreferrer">◉ Energiecheck per WhatsApp starten</a><small>Vorgefertigte Nachricht: „Energiecheck“</small></section>
 
-      <footer><div className="footerTop"><a className="brand" href="/"><img className="energyLogo" src={logo} alt="" /><span>MA SALES GROUP</span></a><p>Ihr persönlicher Ansprechpartner für Strom- und Gastarife.</p><div className="socials"><a href="https://instagram.com/justinundleon" target="_blank" rel="noreferrer" aria-label="Instagram">Instagram</a><a href="https://tiktok.com/@justinundleon" target="_blank" rel="noreferrer" aria-label="TikTok">TikTok</a><a href="https://facebook.com/justinundleon" target="_blank" rel="noreferrer" aria-label="Facebook">Facebook</a></div></div><div className="footerBottom"><span>Leon Schüßler &amp; Justin Rother GbR · Erich-Wolf-Straße 10 · 63840 Hausen</span><span><a href="/impressum">Impressum</a> · <a href="/datenschutz">Datenschutz</a> · <a href="mailto:info@jl-vertrieb.com">info@jl-vertrieb.com</a> · <a href="tel:+4915122232625">0151 22232625</a></span></div></footer>
     </main>
   );
 }
