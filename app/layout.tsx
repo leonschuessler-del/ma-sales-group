@@ -18,10 +18,6 @@ export const metadata: Metadata = {
   other: {
     "codex-preview": "development",
   },
-  icons: {
-    icon: "/images/ma-logo.png",
-    shortcut: "/images/ma-logo.png",
-  },
 };
 
 export default function RootLayout({
