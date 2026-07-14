@@ -1,3 +1,0 @@
-import Link from "next/link";
-import { Logo } from "../page";
-export default function Impressum(){return <main><header className="topbar pagebar"><Link href="/"><Logo /></Link></header><article className="legal"><p className="eyebrow">Rechtliches</p><h1>Impressum</h1><h2>Angaben gemäß § 5 DDG</h2><p>Max Aulbach<br />MA Sales Group</p><h2>Kontakt</h2><p>Telefon: +49 171 6327501</p><p className="legal-note">Die vollständige ladungsfähige Geschäftsanschrift muss vor der endgültigen öffentlichen Nutzung ergänzt werden.</p><Link className="text-link" href="/">← Zur Startseite</Link></article></main>}
