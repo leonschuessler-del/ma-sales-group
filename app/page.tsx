@@ -1,18 +1,20 @@
 import Link from "next/link";
+import logo from "./assets/logo";
+import maxDesk from "./assets/maxDesk";
 
 const instagram = "https://www.instagram.com/max_aulbach/";
 const linkedin = "https://www.linkedin.com/in/max-aulbach-000859348/";
 const whatsapp = "https://wa.me/491716327501";
 
 function Logo() {
-  return <img className="brand-logo" src="/images/ma-logo.png" alt="Max Aulbach Sales Group" />;
+  return <img className="brand-logo" src={logo} alt="Max Aulbach Sales Group" />;
 }
 
 export default function Home() {
   return (
     <main>
       <section className="home-hero">
-        <div className="hero-photo" aria-hidden="true" />
+        <div className="hero-photo" style={{ backgroundImage: `url(${maxDesk})` }} aria-hidden="true" />
         <div className="hero-shade" />
         <header className="topbar topbar-light"><Logo /><span>MA Sales Group</span></header>
         <div className="hero-copy">
