@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Footer, Logo, instagram, linkedin } from "../page";
 import maxDesk from "../assets/maxDesk";
 import frankfurtOffice from "../assets/frankfurtOffice";
-import restaurant from "../assets/restaurant";
+import yacht from "../assets/yacht";
 import cityDining from "../assets/cityDining";
 import audiExterior from "../assets/audiExterior";
 import audiInterior from "../assets/audiInterior";
@@ -20,7 +20,7 @@ export default function Vertrieb() {
     <section className="vision-strip" aria-label="Persönliche Ziele und Perspektiven"><div className="vision-images"><img src={cityDining} alt="" /><img src={audiExterior} alt="" /><img src={audiInterior} alt="" /></div><div className="vision-overlay"><p className="eyebrow light">Deine Perspektive</p><h2>Erfolg sieht für jeden anders aus.<br />Der Weg beginnt mit deiner Entscheidung.</h2><span>Keine Versprechen. Eine Möglichkeit, an deinen eigenen Zielen zu arbeiten.</span></div></section>
     <section className="split-feature"><img src={frankfurtOffice} alt="Arbeitsplatz mit Blick auf Frankfurt" /><div><p className="eyebrow light">Für Macher</p><h2>Du musst nicht alles können.<br />Du musst anfangen.</h2><p>Wir suchen Menschen, die Verantwortung übernehmen, lernbereit sind und sich langfristig etwas Eigenes aufbauen wollen.</p><a className="button light-button" href={apply}>Unverbindlich kennenlernen →</a></div></section>
     <section id="ablauf" className="process"><p className="eyebrow">So geht es weiter</p><h2>Dein Einstieg in drei Schritten.</h2><ol><li><b>01</b><span><strong>Kontakt aufnehmen</strong>Schreib uns kurz über WhatsApp.</span></li><li><b>02</b><span><strong>Kennenlernen</strong>Wir sprechen über deine Ziele und Möglichkeiten.</span></li><li><b>03</b><span><strong>Gemeinsam starten</strong>Du erhältst Struktur, Wissen und persönliche Begleitung.</span></li></ol></section>
-    <section className="desk-cta"><img src={restaurant} alt="Max Aulbach in einem Restaurant" /><div><p className="eyebrow light">Bereit?</p><h2>Dein nächster Schritt beginnt heute.</h2><a className="button light-button" href={apply}>Jetzt Kontakt aufnehmen →</a></div></section>
+    <section className="desk-cta"><img src={yacht} alt="Max Aulbach mit Blick auf das Meer" /><div><p className="eyebrow light">Bereit?</p><h2>Dein nächster Schritt beginnt heute.</h2><a className="button light-button" href={apply}>Jetzt Kontakt aufnehmen →</a></div></section>
     <section className="mini-social"><span>Bleib verbunden</span><a href={instagram}>Instagram ↗</a><a href={linkedin}>LinkedIn ↗</a></section><Footer />
   </main>
 }
